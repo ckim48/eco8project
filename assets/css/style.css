@@ -10,6 +10,10 @@ body {
   text-align: left !important;
   font-size: 15px;
 }
+.myj{
+      text-align: justify !important;
+
+}
 .swiper{
   width:70%;
 }
