@@ -1,10 +1,4 @@
-/**
-* Template Name: eStartup
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -185,11 +179,11 @@
         spaceBetween: 20
       },
       640: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 20
       },
       992: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 20
       }
     }

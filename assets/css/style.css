@@ -6,7 +6,20 @@ body {
   background-color: #fff;
   color: #333;
 }
-
+.text-myleft{
+  text-align: left !important;
+  font-size: 15px;
+}
+.swiper{
+  width:70%;
+}
+.appp{
+  cursor: pointer;
+  font-size: 14px !important;
+}
+.text-mucenter{
+  text-align: right !important;
+}
 h1,
 h2,
 h3,
@@ -304,6 +317,9 @@ span {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+  }
+  .phone{
+    height:350px;
   }
 
   .navbar ul {
@@ -782,7 +798,9 @@ section {
 #screenshots .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #71c55d;
 }
-
+.bg-mycolor{
+  background-color: #F9FFF4;
+}
 /* Team Section
 --------------------------------*/
 #team .team-block {
@@ -797,13 +815,16 @@ section {
   #team .team-block {
     margin-bottom: 30px;
   }
+/*  .swiper{
+    height:200px;
+  }*/
 }
 
 #team .team-block img {
   width: 100%;
 }
 .sub-section{
-  text-align: left !important;
+  text-align: center !important;
   color: slategray;
   font-weight: 200 !important;
 }
