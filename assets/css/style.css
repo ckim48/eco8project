@@ -329,6 +329,10 @@ span {
   .navbar ul {
     display: none;
   }
+  .myj{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .navbar-mobile {
