@@ -15,7 +15,10 @@ body {
 
 }
 .swiper{
-  width:70%;
+  width:50%;
+}
+.text-left{
+  text-align: left !important;
 }
 .appp{
   cursor: pointer;
@@ -322,6 +325,19 @@ span {
   .mobile-nav-toggle {
     display: block;
   }
+  #carouselExample{
+    margin-top: 50px !important;
+    height:300px !important;
+  }
+    #carouselExample2{
+    height:300px !important;
+  }
+/*  #team1{
+    margin-top: -35px !important;
+  }*/
+  #team2{
+    margin-top: 50px !important;
+  }
   .phone{
     height:350px;
   }
@@ -596,7 +612,7 @@ section {
 .separator {
   color: #626262;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
   margin-bottom: 30px;
   text-transform: capitalize;
@@ -730,6 +746,10 @@ section {
   padding-top: 60px;
 }
 
+#about-us .about-content p{
+  font-size: 16px;
+}
+
 #about-us .about-content h2 {
   color: #252525;
   font-family: "roboto";
@@ -748,6 +768,7 @@ section {
 
 #about-us .about-content ul li {
   line-height: 36px;
+  font-size: 15px;
 }
 
 #about-us .about-content ul li .fa {
@@ -835,6 +856,11 @@ section {
   text-align: center !important;
   color: slategray;
   font-weight: 200 !important;
+}
+.myteam{
+    color: slategray;
+  font-weight: 200 !important;
+  font-size: 18px;
 }
 .swiper-pagination{
 /*  margin-top: -20px !important;*/
