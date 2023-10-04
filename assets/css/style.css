@@ -518,8 +518,7 @@ span {
   margin-bottom: 30px;
   border-radius: 30px;
 }
-
-#hero .btn-get-started {
+.btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
@@ -879,13 +878,19 @@ section {
   transition: all 0.5s ease-in-out 0s;
   color: color: #71c55d;;
 }
-
+/**/
 #team .team-block .team-content ul {
   display: block;
   width: 100%;
 }
+.carousel{
+  width:89%;
+/*  border: 1px solid black;*/
+  }
+
   .carousel-caption {
     display:none;
+}
 /*    color: black;
         background-color: rgba(213, 213, 213 , 0.2); */
 /*    padding: 10px; */
@@ -1307,7 +1312,4 @@ section {
 .footer .copyrights .credits a {
   letter-spacing: 0;
   color: #71c55d;
-}
-.mycarousel{
-  height: 150px;
 }
